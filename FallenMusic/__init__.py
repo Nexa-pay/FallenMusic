@@ -43,17 +43,17 @@ logging.getLogger("pytgcalls").setLevel(logging.ERROR)
 LOGGER = logging.getLogger("FallenMusic")
 
 app = Client(
-    "FallenMusic",
-    config.API_ID,
-    config.API_HASH,
-    bot_token=config.BOT_TOKEN,
+    "Tunemusic",
+    config.34569477,
+    config.3967519b70936b859949e093f873141a,
+    bot_token=config.8276604094:AAHJwN7-6jw4_ZaL25PKMD6nMQhUEt0cnMs,
 )
 
 app2 = Client(
-    "FallenAss",
-    api_id=config.API_ID,
-    api_hash=config.API_HASH,
-    session_string=str(config.SESSION),
+    "Tunemudic",
+    api_id=config.34569477,
+    api_hash=config.3967519b70936b859949e093f873141a,
+    session_string=str(BQIPfQUALlVmYfUsTpcplm1ihomX8vBmhppfeAVan6rQ8cmRC0QWtW7UEQn4vZYmHud1ZPR2xfvPAg687-qLdUfYv78aW9k3-E9iWoReZPYsOOormSBes3s4XYH-n1rvhjTn94z4_9RqWtbr41uA0Mbc2I6yGcLAUH_bkre8k4s3kVcut2HVK6QHMot4OOgHsN19sonv2q-RYQKI-v6VuMHnNEUAlxWhoHqDI0WPFM-_bIKPIWOeT35l7WKXd-FWVe7nf60srexY8vfDShncbYCUUdE_UzDHoQbUJAIHkVpKlT36yT7Uct7qVww1hOM5Nm7YWPJ_awRvEnZW3jgtTa7fzFz0uQAAAAHsnuTFAA),
 )
 
 pytgcalls = PyTgCalls(app2)
