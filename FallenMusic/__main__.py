@@ -26,13 +26,13 @@ import os
 
 from pyrogram import idle
 
-from FallenMusic import (
+from Tunemusic import (
     ASS_ID,
     ASS_NAME,
     ASS_USERNAME,
-    BOT_ID,
-    BOT_NAME,
-    BOT_USERNAME,
+    BOT_ID,8276604094
+    BOT_NAME,Tunemudic
+    BOT_USERNAME,@tunebbot
     LOGGER,
     SUNAME,
     app,
@@ -58,17 +58,17 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ʙᴏᴛ ✯\n\n𖢵 ɪᴅ : `{BOT_ID}`\n𖢵 ɴᴀᴍᴇ : {BOT_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
+            f"✯ Tune Music ʙᴏᴛ ✯\n\n𖢵 ɪᴅ : `{8276604094}`\n𖢵 ɴᴀᴍᴇ : {Tunemusic}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{@tunebbot}",
         )
     except:
         LOGGER.error(
-            f"{BOT_NAME} failed to send message at @{SUNAME}, please go & check."
+            f"{Tunemusic} failed to send message at @{Nexa}, please go & check."
         )
 
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ᴀss ✯\n\n𖢵 ɪᴅ : `{ASS_ID}`\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{ASS_USERNAME}",
+            f"✯ Tunemusic ✯\n\n𖢵 ɪᴅ : `{8276604094}`\n𖢵 ɴᴀᴍᴇ : {Tune}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{tunebbot}",
         )
     except:
         LOGGER.error(
