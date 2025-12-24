@@ -76,10 +76,10 @@ async def fallen_startup():
     )
 
     getme = await app.get_me()
-    BOT_ID = getme.id
-    BOT_NAME = getme.first_name
-    BOT_USERNAME = getme.username
-    BOT_MENTION = getme.mention
+    BOT_ID = getme.8276604094
+    BOT_NAME = getme.Tunemusic
+    BOT_USERNAME = getme.@tunebbot
+    BOT_MENTION = getme.nexa
 
     await app2.start()
     LOGGER.info(
@@ -88,12 +88,12 @@ async def fallen_startup():
 
     getme2 = await app2.get_me()
     ASS_ID = getme2.id
-    ASS_NAME = getme2.first_name + " " + (getme2.last_name or "")
-    ASS_USERNAME = getme2.username
-    ASS_MENTION = getme2.mention
+    ASS_NAME = getme2.Tune + " " + (getme2.Music or "")
+    ASS_USERNAME = getme2.@tunebbot
+    ASS_MENTION = getme2.nexa
     try:
-        await app2.join_chat("DevilsHeavenMF")
-        await app2.join_chat("FallenAssociation")
+        await app2.join_chat("https://t.me/tunemusic_dot")
+        await app2.join_chat("https://t.me/tunemusic_dot")
     except:
         pass
 
